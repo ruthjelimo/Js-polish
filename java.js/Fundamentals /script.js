@@ -195,14 +195,23 @@
 // console.log('Im ' + 23 +  'years old');
 // console.log('23' - '5' -4);
 
-const countryPopulatuion = 34000000;
-if (countryPopulatuion > 3300000){
-    console.log('portugal population is above average');
-}else{
-    console.log(`Portugal's population is 22 million below average`);
-}
-console.log('9'-'5');
-console.log('19'-'13' + '17');
-console.log('123' < 57);
-console.log(5 + 6 + '4' + 9 - 4 - 2);
+// const countryPopulatuion = 34000000;
+// if (countryPopulatuion > 3300000){
+//     console.log('portugal population is above average');
+// }else{
+//     console.log(`Portugal's population is 22 million below average`);
+// }
+// console.log('9'-'5');
+// console.log('19'-'13' + '17');
+// console.log('123' < 57);
+// console.log(5 + 6 + '4' + 9 - 4 - 2);
+
+// 5 falsy values 0,'',NAN, null,undefined.
+console.log(Boolean(0));
+console.log(Boolean(''));
+console.log(Boolean(undefined));
+console.log(Boolean('ruth'));
+console.log(Boolean({}));
+
+
 
