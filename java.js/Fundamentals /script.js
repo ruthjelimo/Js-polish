@@ -213,5 +213,18 @@ console.log(Boolean(undefined));
 console.log(Boolean('ruth'));
 console.log(Boolean({}));
 
+const money =0;
+if (money){
+    console.log('Dont spend it all');
+}else{
+    console.log('You should get a job');
+}
+
+let height;
+if (height){
+    console.log('check your heigt');
+}else{
+    console.log('you so tall');
+}
 
 
