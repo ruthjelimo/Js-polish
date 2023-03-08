@@ -170,19 +170,39 @@
 
 
 //    coding challenge2
-const markMass=95;
-const johnMass = 85;
-const  markHeight = 1.88;
-const johnHeight =1.76;
+// const markMass=95;
+// const johnMass = 85;
+// const  markHeight = 1.88;
+// const johnHeight =1.76;
 
-const johnBMI = johnMass/(johnHeight *johnHeight);
-const markBMI = markMass/(markHeight *markHeight);
-console.log(johnBMI,markBMI);
-console.log(johnBMI > markBMI);
+// const johnBMI = johnMass/(johnHeight *johnHeight);
+// const markBMI = markMass/(markHeight *markHeight);
+// console.log(johnBMI,markBMI);
+// console.log(johnBMI > markBMI);
 
-if (markBMI>johnBMI){
-    console.log('markBMI is greater than johnBMI');
+// if (markBMI>johnBMI){
+//     console.log('markBMI is greater than johnBMI');
+// }else{
+//     console.log('johnBMI is greater than markBMI');
+// }
+// console.log(`johnBMI ${johnBMI} is higher than markBMI ${markBMI}`);
+
+// //  type conversion
+//  const inputYear = '1997';
+//  console.log(Number(inputYear)+ 5);
+
+// //  type coercion
+// console.log('Im ' + 23 +  'years old');
+// console.log('23' - '5' -4);
+
+const countryPopulatuion = 34000000;
+if (countryPopulatuion > 3300000){
+    console.log('portugal population is above average');
 }else{
-    console.log('johnBMI is greater than markBMI');
+    console.log(`Portugal's population is 22 million below average`);
 }
-console.log(`johnBMI ${johnBMI} is higher than markBMI ${markBMI}`);
+console.log('9'-'5');
+console.log('19'-'13' + '17');
+console.log('123' < 57);
+console.log(5 + 6 + '4' + 9 - 4 - 2);
+
