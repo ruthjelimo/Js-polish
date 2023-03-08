@@ -169,7 +169,7 @@
 //    console.log(century);
 
 
-//    coding challenge1
+//    coding challenge2
 const markMass=95;
 const johnMass = 85;
 const  markHeight = 1.88;
