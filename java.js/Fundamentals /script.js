@@ -145,25 +145,44 @@
 
 //if else
 
-const age = 14;
+// const age = 14;
 
-if (age>=18){
-    console.log('ruth can get a driving license');
+// if (age>=18){
+//     console.log('ruth can get a driving license');
 
+// }
+// else{
+//     const yearsLeft = 18- age;
+//     console.log(`ruth has ${yearsLeft}  years to start driving`);
+// }
+
+// const yearBirth = 1997;
+// let century;
+
+// if (yearBirth>=2000){
+//     century= 21;
+//    }
+//    else{
+//     century = 20;
+//    }
+
+//    console.log(century);
+
+
+//    coding challenge1
+const markMass=95;
+const johnMass = 85;
+const  markHeight = 1.88;
+const johnHeight =1.76;
+
+const johnBMI = johnMass/(johnHeight *johnHeight);
+const markBMI = markMass/(markHeight *markHeight);
+console.log(johnBMI,markBMI);
+console.log(johnBMI > markBMI);
+
+if (markBMI>johnBMI){
+    console.log('markBMI is greater than johnBMI');
+}else{
+    console.log('johnBMI is greater than markBMI');
 }
-else{
-    const yearsLeft = 18- age;
-    console.log(`ruth has ${yearsLeft}  years to start driving`);
-}
-
-const yearBirth = 1997;
-let century;
-
-if (yearBirth>=2000){
-    century= 21;
-   }
-   else{
-    century = 20;
-   }
-
-   console.log(century);
+console.log(`johnBMI ${johnBMI} is higher than markBMI ${markBMI}`);
