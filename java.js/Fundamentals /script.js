@@ -145,9 +145,25 @@
 
 //if else
 
-const age = 20;
-const ageOldEnough = age =>18;
-if (ageOldEnough){
+const age = 14;
+
+if (age>=18){
     console.log('ruth can get a driving license');
-    
+
 }
+else{
+    const yearsLeft = 18- age;
+    console.log(`ruth has ${yearsLeft}  years to start driving`);
+}
+
+const yearBirth = 1997;
+let century;
+
+if (yearBirth>=2000){
+    century= 21;
+   }
+   else{
+    century = 20;
+   }
+
+   console.log(century);
